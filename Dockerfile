@@ -7,11 +7,8 @@ WORKDIR /usr/src/app
 # Copy the package files to the app directory
 COPY package*.json ./
 
-# Install the app dependencies with --legacy-peer-deps flag
-RUN npm install --legacy-peer-deps
-
-# Install pinia
-RUN npm install pinia --legacy-peer-deps
+# Install the app dependencies
+RUN npm install
 
 # Copy the app source code to the app directory
 COPY . .
@@ -23,4 +20,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Start the app
-CMD ["npm", "run", "start"]
+CMD ["nuxt", "start"]
