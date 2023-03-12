@@ -4,7 +4,7 @@
       <div class="mx-auto max-w-3xl text-center">
         <h1
           class="animate-text mb-5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent text-4xl font-extrabold leading-tight md:text-5xl lg:text-6xl lg:leading-tight">
-          Generate Compelling Tweets using AI.
+          Generate Compelling Tweets using TSI AI.
         </h1>
         <p class="text-lg mt-1 font-normal text-gray-500 lg:text-xl sm:px-16 dark:text-gray-400">
           TweetGen is a free tool that allows you to generate the best human-like tweets and threads ideas with AI and is built using the
