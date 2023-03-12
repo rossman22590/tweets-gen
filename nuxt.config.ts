@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "TweetsGen",
+      title: "TweetAI",
       meta: [
         { charset: "utf-8" },
         {
@@ -17,17 +17,17 @@ export default defineNuxtConfig({
         {
           hid: "description",
           name: "description",
-          content: "TweetGen is a free tool that allows you to generate the best human-like tweets and threads ideas with AI",
+          content: "TweetAI is a free tool that allows you to generate the best human-like tweets and threads ideas with AI",
         },
         {
           hid: "og:title",
           property: "og:title",
-          content: "TweetsGen",
+          content: "TweetAI",
         },
         {
           hid: "og:description",
           property: "og:description",
-          content: "TweetGen is a free tool that allows you to generate the best human-like tweets and threads ideas with AI",
+          content: "TweetAI is a free tool that allows you to generate the best human-like tweets and threads ideas with AI",
         },
         {
           hid: "og:image",
