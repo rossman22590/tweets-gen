@@ -7,11 +7,11 @@ WORKDIR /usr/src/app
 # Copy the package files to the app directory
 COPY package*.json ./
 
-# Install the app dependencies
-RUN npm install
+# Install the app dependencies with --legacy-peer-deps flag
+RUN npm install --legacy-peer-deps
 
 # Install pinia
-RUN npm install pinia
+RUN npm install pinia --legacy-peer-deps
 
 # Copy the app source code to the app directory
 COPY . .
