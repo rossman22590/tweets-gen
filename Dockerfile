@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install the app dependencies
 RUN npm install
 
+# Install pinia
+RUN npm install pinia
+
 # Copy the app source code to the app directory
 COPY . .
 
