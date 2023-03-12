@@ -17,7 +17,7 @@ npm install
 pnpm install
 ```
 
-## Development Server
+## Development Servere
 
 Start the development server on http://localhost:3000
 
