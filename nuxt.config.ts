@@ -123,7 +123,6 @@ export default defineNuxtConfig({
     upstashRedisApiUrl: process.env.UPSTASH_REDIS_API_URL,
     upstashRedisToken: process.env.UPSTASH_REDIS_TOKEN,
     openaiApiKey: process.env.OPENAI_API_KEY,
-    apiUrl: process.env.APP_URL,
     public: {
       isProduction: isProduction,
       google_tag_manager_id: process.env.GOOGLE_TAG_MANAGER_ID,
