@@ -1,5 +1,5 @@
 # Use the official Node.js image as the parent image
-FROM node:14
+FROM node:16
 
 # Install yarn package manager
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
