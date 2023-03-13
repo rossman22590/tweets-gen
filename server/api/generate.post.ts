@@ -4,7 +4,7 @@ import redis from "~/utils/redis";
 
 const ratelimit = new Ratelimit({
   redis: redis,
-  limiter: Ratelimit.fixedWindow(10, "1 m"),
+  limiter: Ratelimit.fixedWindow(100, "1 m"),
   analytics: true,
 });
 
