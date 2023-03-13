@@ -109,7 +109,11 @@ export default defineNuxtConfig({
   },
 
   css: ["~/assets/css/main.css"],
-
+  
+axios: {
+  timeout: 60000 // 60 seconds
+},
+  
   postcss: {
     plugins: {
       tailwindcss: {},
